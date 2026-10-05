@@ -8,7 +8,7 @@ while True:
 
     temps.append(float(value))
 
-
+# Calculate temperature summary
 def summarize(temps):
     result = {
         "minimum": min(temps),
